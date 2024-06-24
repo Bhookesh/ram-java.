@@ -1,27 +1,22 @@
-package challenge;
+public class Arithmetic {
 
-import java.util.Scanner;
-
-class Arithmetic {
   public static void main(String[] args) {
-    Scanner input = new Scanner(System.in);
-    System.out.println("welcome to Arithmetic calcuator");
-    System.out.println("please enter first number: ");
-    int first = input.nextInt();
-    System.out.print("please enter second number: ");
-    int second = input.nextInt();
+    int a = 8;
+    int b = 5;
 
-    int add = first + second;
-    int sub = first - second;
-    int mul = first * second;
-    int div = first / second;
-    int mod = first % second;
+    System.out.println(a + b);
+    System.out.println(a - b);
+    System.out.println(a * b);
+    System.out.println(a / b);
+    System.out.println(a % b);
 
-    System.out.println("Addition is: " + add);
-    System.out.println("Subtraction is: " + sub);
-    System.out.println("Division is: " + div);
-    System.out.println("modulus is: " + mod);
+    double x = 5;
+    double y = 3;
+
+    System.out.println(x + y);
+    System.out.println(x - y);
+    System.out.println(x * y);
+    System.out.println(x / y);
 
   }
-
 }
